@@ -109,7 +109,11 @@ class Node {
         linkedList.traversal();
 
         // Search for an element in the linked list
-        linkedList.search(10);
+      boolean isSearched =  linkedList.search(10);
+      if(isSearched) {
+          System.out.println("ss");
+      }
+
 
         // Delete an element from the linked list
         linkedList.delete(40);
