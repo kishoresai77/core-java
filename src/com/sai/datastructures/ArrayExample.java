@@ -84,6 +84,7 @@ public class ArrayExample {
         arrayExample.insert(20);
         arrayExample.insert(30);
 
+
         // Display the array
         arrayExample.traversal();
 
